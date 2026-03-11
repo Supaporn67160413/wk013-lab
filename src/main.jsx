@@ -7,6 +7,7 @@ import PostsByUser from "./PostsByUser.jsx";
 import Timer from "./Timer.jsx";
 import WindowSize from "./WindowSize.jsx";
 import SearchUsers from "./SearchUsers.jsx";
+import DataDashboard from "./DataDashboard.jsx";
 
 //หา Element ที่ชื่อ root แล้วก็จะ render
 //reder คือ การเปลี่ยนแปลงของ Component
@@ -19,5 +20,6 @@ createRoot(document.getElementById("root")).render(
     <Timer />
     <WindowSize />
     <SearchUsers />
+    <DataDashboard />
   </StrictMode>,
 );
