@@ -15,13 +15,13 @@ import WeatherApp from "./WeatherApp.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/* แทนที่ด้วย Export มาทั้งหมด*/}
-    {/* <App />
+    <App />
     <UserList />
     <PostsByUser />
     <Timer />
     <WindowSize />
     <SearchUsers />
-    <DataDashboard /> */}
+    <DataDashboard />
     <WeatherApp />
   </StrictMode>,
 );
