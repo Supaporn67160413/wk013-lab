@@ -12,6 +12,7 @@ export default function Timer() {
     }, 1000);
 
     // เคลียร์: ปลดปล่อย Timer เมื่อ component unmount หรือ isRunning เปลี่ยน
+    // ถ้าไม่ใส่เวลากดหยุดมันไม่ได้หยุดจริงๆทำให้หากกดจับเวลาต่ออาจทำให้ + เพิ่มทีละ 2 3 4 5 6 ....
     return () => {
       console.log("🧹 Cleanup timer");
       clearInterval(timer);
